@@ -54,8 +54,8 @@ Open `platformio.ini` in the root of your project and add the library dependenci
 
 ```ini
 [env:your_board]
-platform = teensy        ; change to match your board platform
-board = teensy40         ; change to match your board
+platform = espressif32
+board = esp32dev        ; change to match your board
 framework = arduino
 
 lib_deps =
